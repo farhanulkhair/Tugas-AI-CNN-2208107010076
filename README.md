@@ -129,3 +129,11 @@
 Pada file train.py, model CNN dibangun dan dilatih menggunakan dataset gambar anjing dan kucing, dimana gambar-gambar tersebut diproses dan diaugmentasi untuk meningkatkan kualitas model. Setelah model selesai dilatih, predict.py digunakan untuk menguji model yang sudah dilatih, dengan memprediksi kelas gambar (kucing atau anjing) dari dataset uji dan menghitung jumlah prediksi yang benar untuk masing-masing kelas.
 
 Dengan demikian, kode ini bertujuan untuk menyediakan solusi klasifikasi gambar menggunakan CNN untuk kasus spesifik gambar anjing dan kucing.</p>
+<br>
+<h4>File train_dog&cat.py</h4>
+<br>
+<ol>
+  <li><b></b></li>
+  <li></li>
+  <li></li>
+</ol>
