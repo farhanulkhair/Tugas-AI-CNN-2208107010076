@@ -40,12 +40,14 @@
         <li>"Softmax": Fungsi aktivasi pada layer output yang digunakan untuk multi-class classification. Fungsi ini mengubah output model menjadi probabilitas kelas.</li>
       </ul>
   </li>
+  <br>
   <li><b>Ringkasan Model</b>
       <ul>
         <li>"model.summary()": Ini akan menampilkan informasi tentang arsitektur model yang telah dibangun, termasuk jenis layer, output shape dari setiap layer, dan jumlah parameter yang dapat dipelajari oleh model.  
         </li>
       </ul>
   </li>
+  <br>
   <li><b>Kompilasi Model</b>
       <ul>
         <li>"optimizer='adam'": Adam adalah algoritma optimasi yang populer yang mengadaptasi laju pembelajaran selama pelatihan. Ini sangat baik untuk jaringan neural dalam banyak kasus.</li>
@@ -53,6 +55,7 @@
         <li>"metrics=['accuracy']": Ini berarti kita akan melacak akurasi selama pelatihan dan evaluasi.</li>
       </ul>
   </li>
+  <br>
   <li><b>Melatih Model</b>
       <ul>
         <li>
@@ -66,11 +69,13 @@
         </li>
       </ul>
   </li>
+  <br>
   <li><b>Menyimpan Model</b>
       <ul>
         <li>model.save('model.h5'): Menyimpan model yang sudah dilatih ke dalam file dengan format HDF5. File ini bisa digunakan untuk memuat model di lain waktu tanpa perlu melatih ulang.</li>
       </ul>
   </li>
+  <br>
   <li><b>Evaluasi Model</b>
       <ul>
         <li>evaluate: Fungsi ini digunakan untuk mengevaluasi kinerja model pada data pengujian.
