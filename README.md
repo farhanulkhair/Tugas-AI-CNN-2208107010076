@@ -76,15 +76,11 @@ File `predict_image.py` bertujuan untuk memuat model CNN yang telah dilatih meng
 
 ---
 
-## Convolutional Neural Network (CNN) untuk Klasifikasi Anjing dan Kucing
+## Convolutional Neural Network (CNN) untuk Klasifikasi Gambar Anjing dan Kucing
 
 Kode ini digunakan untuk melatih dan menguji model Convolutional Neural Network (CNN) dalam mengklasifikasikan gambar. Secara khusus, model ini digunakan untuk memprediksi apakah gambar yang diberikan berisi gambar kucing (cat) atau anjing (dog).
 
 ---
-
-# **Klasifikasi Gambar Anjing dan Kucing dengan CNN**
-
-Proyek ini bertujuan untuk **membangun dan melatih model Convolutional Neural Network (CNN)** untuk **mengklasifikasikan gambar anjing dan kucing**. Model ini dilatih menggunakan dataset gambar yang terdiri dari gambar anjing dan kucing, dan digunakan untuk memprediksi kelas gambar (anjing atau kucing) berdasarkan input gambar.
 
 ## **Fitur Utama:**
 
@@ -139,7 +135,3 @@ Proyek ini bertujuan untuk **membangun dan melatih model Convolutional Neural Ne
 ## **Lisensi:**
 
 Proyek ini dilisensikan di bawah **MIT License**. Lihat file `LICENSE` untuk informasi lebih lanjut.
-
----
-
-Dengan README ini, pengguna GitHub dapat dengan mudah memahami tujuan proyek, cara untuk mengatur dan menjalankan kode, serta bagaimana memanfaatkan model CNN untuk klasifikasi gambar anjing dan kucing.
