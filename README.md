@@ -4,7 +4,7 @@
 <h3>Mata Kuliah : Artificial Intellegent </h3>
 <br>
 <h2>CNN menggunakan data CIFAR-10</h2>
-<p>Code dengan nama file ` train_model ` bertujuan untuk melatih model CNN (Convolutional Neural Network) menggunakan dataset CIFAR-10, serta mengevaluasi dan menyimpan model yang telah dilatih.</p>
+<p>Code dengan nama file "train_model.py" bertujuan untuk melatih model CNN (Convolutional Neural Network) menggunakan dataset CIFAR-10, serta mengevaluasi dan menyimpan model yang telah dilatih.</p>
 
 <ol>
   <li><b>Memuat dan Menyiapkan Dataset CIFAR-10</b>
