@@ -88,3 +88,33 @@
       </ul>
   </li>
 </ol>
+<br>
+<p>Lalu file dengan nama "predict_image.py" bertujuan untuk memuat model CNN yang telah dilatih menggunakan dataset CIFAR-10 dan menggunakannya untuk memprediksi kelas gambar yang dipilih oleh pengguna melalui antarmuka grafis dengan tkinter.</p>
+
+<ol>
+  <li><b>Memuat dan memproses gambar</b>
+      <ul>
+        <li>Fungsi load_and_prepare_image(file_path) digunakan untuk membuka gambar, mengubah ukurannya menjadi 32x32 piksel (sesuai dengan input model), menormalisasi piksel gambar ke rentang [0, 1], dan menambahkan dimensi batch.</li>
+      </ul>
+  </li>
+  <li><b>Membuat Model</b>
+      <ul>
+        <li>Model yang telah dilatih dan disimpan dalam file model.h5 dimuat dengan load_model().</li>
+      </ul>
+  </li>
+  <li><b>Dialog Pemilihan File Gambar</b>
+      <ul>
+        <li>Menggunakan tkinter.filedialog.askopenfilename(), pengguna dapat memilih file gambar (dengan ekstensi .png, .jpg, atau .jpeg) dari sistem file.</li>
+      </ul>
+  </li>
+  <li><b>Prediksi Gambar</b>
+      <ul>
+        <li>Setelah gambar dipilih, fungsi model.predict() digunakan untuk memprediksi kelas gambar. Hasil prediksi diproses untuk mendapatkan indeks kelas dengan np.argmax() dan kemudian diterjemahkan menjadi nama kelas menggunakan daftar class_names.</li>
+      </ul>
+  </li>
+  <li><b>Menampilkan Hasil</b>
+      <ul>
+        <li>Nama kelas yang diprediksi dan indeksnya dicetak ke layar.</li>
+      </ul>
+  </li>
+</ol>
