@@ -14,6 +14,7 @@
         <li><b>Konversi label:</b> to_categorical digunakan untuk mengubah label numerik (seperti 0, 1, 2, dll.) menjadi representasi one-hot encoded. Ini berarti label untuk setiap gambar diubah menjadi vektor di mana hanya satu elemen yang bernilai 1, sementara sisanya bernilai 0. Misalnya, label 3 (untuk kucing) akan menjadi [0, 0, 0, 1, 0, 0, 0, 0, 0, 0].</li>
       </ul>
   </li>
+  
   <li><b>Membangun Model CNN (Convolutional Neural Network)</b>
       <ul>
         <li><b>Conv2D:</b> Ini adalah layer konvolusional yang melakukan operasi konvolusi untuk menangkap pola di gambar. Setiap konvolusi akan menghasilkan fitur penting yang akan dipelajari oleh model.
