@@ -122,3 +122,10 @@
       </ul>
   </li>
 </ol>
+<br>
+<h2>Convolutional Neural Network (CNN) mentrain dan mempredik tentang kelas anjing dan kucing</h2>
+<p>Kode ini digunakan untuk melatih dan menguji model Convolutional Neural Network (CNN) dalam mengklasifikasikan gambar. Secara khusus, model ini digunakan untuk memprediksi apakah gambar yang diberikan berisi gambar kucing (cat) atau anjing (dog).
+
+Pada file train.py, model CNN dibangun dan dilatih menggunakan dataset gambar anjing dan kucing, dimana gambar-gambar tersebut diproses dan diaugmentasi untuk meningkatkan kualitas model. Setelah model selesai dilatih, predict.py digunakan untuk menguji model yang sudah dilatih, dengan memprediksi kelas gambar (kucing atau anjing) dari dataset uji dan menghitung jumlah prediksi yang benar untuk masing-masing kelas.
+
+Dengan demikian, kode ini bertujuan untuk menyediakan solusi klasifikasi gambar menggunakan CNN untuk kasus spesifik gambar anjing dan kucing.</p>
