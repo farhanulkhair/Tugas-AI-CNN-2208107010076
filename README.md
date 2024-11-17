@@ -131,7 +131,3 @@ Kode ini digunakan untuk melatih dan menguji model Convolutional Neural Network 
 
 5. **Hasil Prediksi:**
    Skrip **`predict.py`** akan mencetak jumlah gambar yang diprediksi sebagai anjing dan kucing, serta informasi lainnya terkait prediksi.
-
-## **Lisensi:**
-
-Proyek ini dilisensikan di bawah **MIT License**. Lihat file `LICENSE` untuk informasi lebih lanjut.
